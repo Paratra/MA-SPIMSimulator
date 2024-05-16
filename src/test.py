@@ -35,6 +35,7 @@ dn, signal = ellipsoid.get_sample()
 # plt.show()
 
 if not "m" in locals():
+    pass
     m = SimLSM_Cylindrical(dn=dn,
                             signal=signal,
                             NA_illum=.4,
